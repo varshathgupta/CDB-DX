@@ -175,5 +175,24 @@
     padding-left: 60px;
     padding-bottom: 5px;
 }
+
+.hyperlinks{
+    margin-top:10px;
+    margin-left: 60px;
+    padding-left: 40px;
+    padding-top: 10px;
+    
+}
+.linksrow{
+    
+    padding: 10px;
+    
+}
+.linksrow a{
+    margin: 10px;
+    padding-left: 5px;
+    color: #333333;
+    font-size: 14px;
+}
     
 
