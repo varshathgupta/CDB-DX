@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar1{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-logo{
+    color: white;
+    font-size: 48pt;
+    padding-top: 5px;
+}
+.nav-list{
+    
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+.nav-links{
+    margin-left: 15px;
+    padding: 0px 12px ;
+    text-decoration: none;
+    color: #ffff;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-around;
+}
+.nav2-list{
+    padding-top: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.nav2-links{
+    color: #333333;
+    font-size: 16pt;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.searchbox{
+    margin-top:10px;
+    border: 1px solid #333333;
+    width:150px;
+    height: 32px;
+
+}
+.placeholder{
+    margin-top: 5px;
+    padding: 5px;
+    align-items: center;
+    text-align: start;
+    font-size: 10px;
+    font-weight: 500;
+    color: #a3a2a2;
+}
+.covid-box{
+    margin-top: 5px;
+    background-color: #cfcccce3;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.covide-box-left{
+    width:60%;
+    display:flex;
+    justify-content: space-around;
+    float:left;
+    clear: right;
+    
+}
+.mask{
+    padding-top: 50px;
+    width:250px;
+    height: 220px;
+}
+.stay-home{
+    display: inline-block;
+    margin: 10px;
+    padding-left: 30px;
+    font-size: 58pt;
+}
+.covid-box-right{
+   width: 40%;
+   float:right;
+    justify-content:space-around;
+}
+.covid-box-right-texts{
+    padding: 10px;
+    margin:10px;
+    font-size: 18pt;
+    color:#333333;
+
+}
+.sub-heads{
+    margin-top: 20px;
+    margin-left:20px;
+    padding-top:20px;
+    padding-left: 40px;
+    color: #333333;
+    font-size: 30pt;
+    font-weight: 300;
+}
+.deals-container{
+    display: grid;
+    width: 180px;
+    height: 220px;
+    grid-template-columns:  200px 200px 200px 200px 200px 200px;
+    gap:20px;
+    padding: 5px;
+    margin-left: 60px;
+    padding-left: 40px;
+}
+.deals-container{
+  
+}
+.deals-img{
+    width: 180px;
+    height: 200px;
+    background-color: #cfcccce3 ;
+    color: #ffff;
+    display: flex;
+    padding-left: 33px;
+    align-items: center;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.deals-caption{
+    display: flex;
+    margin-left: 20px;
+    padding:10px;
+   align-items: center;
+    text-align: center;
+    
+}
+
+.category-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap:40px;
+    grid-row-gap:35px;
+    padding: 10px;
+    margin-left: 60px;
+    padding-left: 40px;
+}
+.category-card{
+    background-color: #dbf3fa;
+    width:190px;
+    height: 230px;
+}
+.category-img{
+    width:180px;
+    margin:5px;
+    height: 195px;
+    background-color: #cfcccce3;
+    color: #ffff;
+    display: flex;
+    padding-left: 33px;
+    align-items: center;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.category-caption{
+    font-size: 15pt;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 60px;
+    padding-bottom: 5px;
+}
+    
+
