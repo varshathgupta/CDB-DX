@@ -200,9 +200,7 @@ footer{
     
     bottom: 0;
 }
-.footer-container{
-    
-}
+
 .footer-list{
     padding-left: 15px;
     margin: 20px;
@@ -213,6 +211,7 @@ footer{
     color:#ffff;
     font-size: 16px;
     padding: 10px;
+    text-decoration: none;
 }
 .footer-title{
     font-size: 18px;
