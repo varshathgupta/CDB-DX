@@ -184,7 +184,7 @@
     
 }
 .linksrow{
-    
+
     padding: 10px;
     
 }
@@ -194,5 +194,36 @@
     color: #333333;
     font-size: 14px;
 }
+
+footer{
+    background-color: #131a22;
     
+    bottom: 0;
+}
+.footer-container{
+    
+}
+.footer-list{
+    padding-left: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-list a{
+    color:#ffff;
+    font-size: 16px;
+    padding: 10px;
+}
+.footer-title{
+    font-size: 18px;
+    font-weight: bold;
+} 
+.footer-container{
+    margin-left: 38px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
 
