@@ -1,0 +1,30 @@
+.container{
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form{
+ margin: 20px;
+ padding: 30px;
+ align-items: center;
+ 
+ 
+}
+input{
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  padding-left: 15px ;
+  outline: none;
+  margin: 8px;
+  
+}
+.error{
+  color: red;
+}
+.radio{
+  width:12px;
+  height: 12px;
+}
